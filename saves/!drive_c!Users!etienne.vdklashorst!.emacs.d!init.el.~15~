@@ -1,0 +1,121 @@
+(load "~/.emacs.d/sanemacs.el" nil t)
+
+;;; Your configuration goes below this line.
+;;; use-package is already loaded and ready to go!
+;;; use-package docs: https://github.com/jwiegley/use-package
+
+;; (require 'evil)
+;; (evil-mode 1)
+(require 'undo-tree)
+(global-undo-tree-mode)
+
+    (cua-mode t)
+    (setq cua-auto-tabify-rectangles nil) ;; Don't tabify after rectangle commands
+    (transient-mark-mode 1) ;; No region when it is not highlighted
+    (setq cua-keep-region-after-copy t) ;; Standard Windows behaviour
+
+(setenv "PATH"
+	(concat
+	 "C:/msys64/mingw64/bin/" ";"
+	 (getenv "PATH")
+	 )
+	)
+
+;; yasnippet
+;; (add-to-list 'load-path
+;;           "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+(require 'which-key)
+(which-key-mode)
+
+(require 'desktop+)
+
+;; companymode
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
+(global-company-mode)
+
+;; company delay until suggestions are shown
+(setq company-idle-delay 0.5)
+
+;; weight by frequency
+(setq company-transformers '(company-sort-by-occurrence))
+
+;; Add yasnippet support for all company backends
+;; https://github.com/syl20bnr/spacemacs/pull/179
+(defvar company-mode/enable-yas t "Enable yasnippet for all backends.")
+
+(defun company-mode/backend-with-yas (backend)
+  (if (or (not company-mode/enable-yas) (and (listp backend)    (member 'company-yasnippet backend)))
+      backend
+    (append (if (consp backend) backend (list backend))
+	    '(:with company-yasnippet))))
+
+(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+
+(require 'helm-config)
+(helm-mode 1)
+(global-set-key (kbd "M-x") #'helm-M-x)
+(global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f") #'helm-find-files)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
+(require 'linum-relative)
+(setq linum-relative-backend 'display-line-numbers-mode)
+
+(setq reftex-bibliography-commands '("addbibresource"))
+(autoload 'helm-bibtex "helm-bibtex" "" t)
+(setq bibtex-completion-format-citation-functions
+      '((org-mode      . bibtex-completion-format-citation-org-link-to-PDF)
+	(latex-mode    . bibtex-completion-format-citation-cite)
+	(markdown-mode . bibtex-completion-format-citation-pandoc-citeproc)
+	(default       . bibtex-completion-format-citation-default)))
+(require 'helm-config)
+(global-set-key (kbd "<apps>") 'helm-command-prefix)
+(define-key helm-command-map "B" 'helm-bibtex)
+(define-key helm-command-map "b" 'helm-bibtex-with-local-bibliography)
+(define-key helm-command-map (kbd "<apps>") 'helm-resume)
+
+;; (setq org-support-shift-select 1)
+(setq org-return-follows-link t)
+(setq org-agenda-start-on-weekday 1)
+(setq org-duration-format (quote h:mm))
+
+(add-to-list 'exec-path "C:/msys64/mingw64/bin/")
+(setq ispell-program-name "C:/msys64/mingw64/bin/hunspell.exe")
+(setq ispell-dictionary "en_US") 
+(setq ispell-dictionary-alist
+      '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_US") nil utf-8)))
+
+(require 'auctex-latexmk)
+(auctex-latexmk-setup)
+
+;; AucTeX configuration
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq-default TeX-master nil)
+(add-hook 'LaTeX-mode-hook 'visual-line-mode)
+(add-hook 'LaTeX-mode-hook 'flyspell-mode)
+(add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
+(add-hook 'LaTeX-mode-hook 'turn-on-reftex)
+(setq reftex-plug-into-AUCTeX t)
+(setq TeX-PDF-mode t)
+;; (add-hook 'LaTeX-mode-hook
+;;           (lambda ()
+;;             (add-to-list 'TeX-command-list
+;;                          '("latexmk" "latexmk -pdf %s" TeX-run-TeX nil t
+;;                            :help "Run latexmk on file"))))
+
+;; Stefan Monnier <foo at acm.org>. It is the opposite of fill-paragraph    
+(defun unfill-paragraph (&optional region)
+  "Takes a multi-line paragraph and makes it into a single line of text."
+  (interactive (progn (barf-if-buffer-read-only) '(t)))
+  (let ((fill-column (point-max))
+	;; This would override `fill-column' if it's an integer.
+	(emacs-lisp-docstring-fill-column t))
+    (fill-paragraph nil region)))
+
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "WAIT(w@/!)" "|" "DONE(d!)" "CANCELED(c@)")))

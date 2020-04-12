@@ -1,0 +1,151 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Apr  9 13:25:35 2020
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24206 38319 907216 0) (desktop . "208") "Etienne.vdKlashorst@MELLB5WPSQ2" nil nil ((((minibuffer . t) (undecorated) (skip-taskbar) (font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-13-*-*-*-c-*-iso8859-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-focus-on-map) (no-accept-focus) (no-special-glyphs) (alpha) (menu-bar-lines . 0) (tool-bar-lines . 0) (height . 70) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen) (z-group) (visibility . t) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (environment) (frameset--id . "C051-BE72-C45A-8797") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (frameset--text-pixel-width . 942) (frameset--text-pixel-height . 1128) (width . 117) (left + -7) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 32) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 958) (pixel-height . 1096) (total-width . 119) (total-height . 68) (normal-height . 1.0) (normal-width . 1.0) (buffer "RFI-007570_Location_of_Gantry_GT-40-470-09.tex" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 621) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("tex"))
+(setq register-alist '((48 . "\\newcommand{\\spacegass}{\\mbox{SPACE GASS 12}\\xspace}\n") (113)))
+(setq file-name-history '("~/.emacs.d/init.el" "~/Mega/Notes/1.org" "~/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/Calc Pack/RFI-007570_Location_of_Gantry_GT-40-470-09.tex" "~/Mega/Notes/WGTP_processes_notes.org" "~/.emacs.d/elpa/idomenu-20141123.2120/idomenu-autoloads.el" "~/.emacs.d/elpa/linum-relative-20180124.1047/linum-relative-autoloads.el" "~/.emacs.d/elpa/yasnippet-snippets-20200314.1030/snippets/latex-mode/figure" "~/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/Calc Pack/Acronyms.def" "~/.emacs.d/elpa/yasnippet-snippets-20200314.1030/yasnippet-snippets-autoloads.el" "~/.emacs.d/elpa/yasnippet-20200329.1434/yasnippet-autoloads.el" "~/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/Calc Pack/bibfile.bib" "~/.emacs.d/elpa/evil-20200304.1421/evil-autoloads.el" "~/.emacs.d/elpa/goto-chg-20190110.2114/goto-chg-autoloads.el" "~/.emacs.d/elpa/which-key-20200216.1350/which-key-autoloads.el" "~/.emacs.d/elpa/company-20200324.2145/company-autoloads.el" "~/.emacs.d/elpa/helm-bibtex-20191028.1313/helm-bibtex-autoloads.el" "~/.emacs.d/elpa/parsebib-20200303.2324/parsebib-autoloads.el" "~/.emacs.d/elpa/f-20191110.1357/f-autoloads.el" "~/.emacs.d/elpa/s-20180406.808/s-autoloads.el" "~/.emacs.d/elpa/biblio-20200331.2013/biblio-autoloads.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/Calc Pack/RFI-007570_Location_of_Gantry_GT-40-470-09.tex"
+  "RFI-007570_Location_of_Gantry_GT-40-470-09.tex"
+  'latex-mode
+  '(visual-line-mode override-global-mode undo-tree-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  621
+  '(621 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24206 38301 266262 0) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (621 620 1))))
+
+(desktop-create-buffer 208
+  "c:/Users/etienne.vdklashorst/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode undo-tree-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  1029
+  '(1029 nil)
+  nil
+  nil
+  '((buffer-display-time 24206 38266 665050 0) (buffer-file-coding-system . prefer-utf-8-dos) (overwrite-mode))
+  '((mark-ring (650 624 625 522 520 647))))
+
+(desktop-create-buffer 208
+  nil
+  "Calc Pack"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  2093
+  '(1118 nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/Calc Pack/")
+  '((buffer-display-time 24206 37756 99701 0) (overwrite-mode))
+  '((mark-ring (1118))))
+
+(desktop-create-buffer 208
+  nil
+  "Working"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  389
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/Working/")
+  '((buffer-display-time 24206 37755 23134 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "RFI-007570 Location of Gantry GT-40-470-09"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  457
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/RFI-007570 Location of Gantry GT-40-470-09/")
+  '((buffer-display-time 24206 37753 905308 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "01 RFIs"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  860
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/01 RFIs/")
+  '((buffer-display-time 24206 37752 111728 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "256677 WGTP"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  330
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/256677 WGTP/")
+  '((buffer-display-time 24206 37750 531750 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "01 Jobs"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  571
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/01 Jobs/")
+  '((buffer-display-time 24206 37743 590198 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "OneDrive - Aurecon Group"
+  'dired-mode
+  '(override-global-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  321
+  '(nil nil)
+  t
+  '("c:/Users/etienne.vdklashorst/OneDrive - Aurecon Group/")
+  '((buffer-display-time 24206 37740 363477 0) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "c:/Users/etienne.vdklashorst/Mega/Notes/1.org"
+  "1.org"
+  'org-mode
+  '(override-global-mode undo-tree-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode org-indent-mode)
+  2792
+  '(2608 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24206 37740 353192 0) (buffer-file-coding-system . undecided-dos) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring (9181 9171 9230 9224 9232 9222 7590 60 1))))
+
+(desktop-create-buffer 208
+  "c:/Users/etienne.vdklashorst/Mega/Notes/1.org_archive"
+  "1.org_archive"
+  'org-mode
+  '(override-global-mode undo-tree-mode yas-minor-mode which-key-mode company-mode helm-mode TeX-PDF-mode)
+  5268
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . iso-latin-1-dos) (overwrite-mode) (truncate-lines . t))
+  '((mark-ring nil)))
+

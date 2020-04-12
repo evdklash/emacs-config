@@ -1,0 +1,38 @@
+* Presentation presented by Paul de Palma on 2020/01/30 Change in process to be
+more efficient. This does not deal with pre IFC hold clouds or design changes.
+*How do we know if what we are doing constitutes a desihm change?* Process 3 and
+4 seem to be the same but the one deals with Bluebeam and the one with CAD? Copy
+Debera Tate in the Aconex that contains the checkprints. Some drawings may be in
+checkprints folder and not on Aconex yet. So if we start to do a drawing updare.
+When a checkprint gets uploaded the revision details must already be filled in.
+Any old DCR numbers were part of the previous process. Hold clouds should not be
+applied (be on) drawings when the checkprints gets issued. Evidence of
+correspondence and drawing updates must go into the RFI folder, this is
+especially true for internal review sets. The internal review evidence does not
+go to the contractor.
+
+When do we escalate issues? If an RFI has multiple zone influences/effects or of
+the RFI is zone wide, then the issue needs to be escalated. Perhaps design
+error, ommisstion, specialist review required.
+
+When cahning drawings, make sure to check the checkprints folder fisrt to make
+sure that all changes by others are incorporated.
+
+New drawings require a new certificate to be issued. Debera Tate takes care of
+issuing certificated for new drawings.
+
+Previous rev cloud need to be left in place when doing Bluebeam drawing markups.
+For existing interim revisions, they need to be included into CAD drawings with
+the next full revision. On cad drawings the old revision clouds may be
+hidden/removed.
+
+For tech notes that go with drawing changes an approval to release form is
+required and the tech memoneeds to be entered into the tech memo regsiter.
+
+Andrew McDonald presented on digital requirements. We are contractually required
+to maintain CAD and Xref updates as well as models. Models should be updated at
+IFC ALWAYS.
+
+CPS management plan and drafting plans will be reviewed and edited and
+communicated to all. ** Travis Mcardie - CPS Manager ** David Gloag - Zone 400
+Lead ** Geoff Constable - CAD Lead

@@ -1,0 +1,103 @@
+\documentclass[a4paper,final,10pt,fleqn]{article}
+\RequirePackage{DocSetup}
+\graphicspath{{Figures/}} %Setting the graphicspath
+
+% Define all references here:
+\addbibresource{./bibfile.bib}
+
+%Define all acronyms here:
+\input{Acronyms.def}
+
+% Document information to go here:
+\newcommand{\theauthor}{Etienne van der Klashorst}
+\newcommand{\thedate}{\today}
+\newcommand{\therevision}{0.1}
+\newcommand{\theproject}{West Gate Tunnel Project}
+\newcommand{\theprojectnumber}{256677}
+\newcommand{\thesubject}{Design Note: RFI-007570 Location of Gantry GT-40-470-09}
+
+% Document expansions to go here:
+\newcommand{\spacegass}{\mbox{SPACE GASS 12}\xspace}
+
+\begin{document}
+
+\section{REVISION Notes}
+\begin{enumerate}[start=0]
+  \item First revision showing basic assumptions and outline.
+\end{enumerate}
+
+\tableofcontents
+\listoffigures
+
+\section{Introduction}
+
+This design note concerns the capacity checks and connection design/specification for a new overhead steel gantry onto an exiting elevated freeway barrier. The solution proposed is similar to what was done on the same freeway under a previous construction project. The connection method as shown in Appendix~\ref{app:D} was proposed by the contractor as being suitable for efficient construction taking account of on-site conditions. The existing barrier geometry was extracted from the ``as-built'' information and is presented in Figures~\ref{fig:02} and~\ref{fig:03} and Appendix~\ref{app:B}. The new gantry and barrier location is shown in Figure~\ref{fig:01} as well as Appendix~\ref{app:A}. 
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=\linewidth]{Location_Of_New_Gantry_Onto_Existing_Barrier_Type_1.pdf}
+  \caption[Position of gantry GT-40-470-09]{Position of gantry GT-40-470-09. Screenshot shows WGT-403-200-DRG-AJV-300-000-1161 Rev 1 overlayed on the as built drawing for the Western Link elevated roadway. Legend inset indicates the type of barrier that the new gantry needs to be post-fixed onto.\label{fig:01}}
+\end{figure}
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=10cm]{Existing_Barrier_Type_1_Geometry.pdf}
+  \caption{Geometry of as-built barriers called ``Type 1'' of the Western Link elevated freeway.\label{fig:02}}
+\end{figure}
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=10cm]{Existing_Barrier_Type_1_Reinforcing.pdf}\\
+  \includegraphics[width=\textwidth]{Existing_Deck_Reinforcing.pdf}
+  \caption{Reinforcing of the as-built barriers called ``Type 1'' of the Western Link elevated freeway.\label{fig:03}}
+\end{figure}
+
+\section{Notes}
+\begin{itemize}
+\item High Performance Level barriers are only required where the gantry leg is located within 1m\ of the roadside face of the barrier. 
+\end{itemize}
+
+\section{Design loads}
+The design load for the gantry in question is listed on WGT-400-440-DRG-AJV-440-000-038 attached as part of Appendix~\ref{app:A} here. \marginpar{The gantry reaction forces need further checking. The moment $M_{z}$ seems too high.}
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=\textwidth]{Gantry_ULS_Loads.pdf}\\
+  \includegraphics[width=5cm]{Gantry_ULS_Loads_Axis_System.pdf}
+  \caption{Gantry \ac{uls} loads as per WGT-400-440-DRG-AJV-440-000-038\label{fig:04}}
+\end{figure}
+
+\section{Barrier capacity}
+From Figure~\ref{fig:03} we see that the existing barrier is reinforced using Y16-230 ligatures with ligatures at closer spacing where barriers are joined. For this analysis a capacity check on standard spacing only is considered as it is argued that the gantry could be moved away from a barrier joint location if required. The barrier capacity is calculated as per the recommendations of \textcite{austroads2013} and the \textcite[\S A13.2]{aashto2017}. The method using a yield line design and the length of impact loading as shown in Figure~\ref{fig:05} of \SI{500}{kN} (outwards) is used. The design calculation is shown as a Python script in Appendix~\ref{app:C}.
+
+The results of the calculation show that the barrier has a nominal impact resistance of approximately \SI{657}{kN} while the wall has a moment capacity of about $M_{c} = \SI{71}{kNm/m}$ (wall bending about a horizontal axis parallel to deck)\marginpar{This value should be compared with the starter bar bending capacity}.
+\begin{figure}[htbp!]
+  \centering
+  \includegraphics[width=\linewidth]{Barrier_impact_loads.pdf}
+  \caption{Barrier impact loads and impact distribution lengths for various barrier performance levels as per \cite{austroads2013}.\label{fig:05}}
+\end{figure}
+
+\section{References}
+\printbibliography
+
+\clearpage
+\appendix
+
+\section{Existing barrier capacity calculation}\label{app:C}
+\includepdf[pages={-}, templatesize={210mm}{297mm}, pagecommand={\thispagestyle{empty}}]{Appendices/WGTP_RFI-007570_Location_of_Gantry_GT-40-470-09_Capacity_Calc.pdf}
+
+\section{Gantry GT-40-470-09 drawings}\label{app:A}
+\includepdf[pages={-}, landscape, templatesize={297mm}{210mm}, pagecommand={\thispagestyle{empty}}]{Appendices/Gantry_Drawings_Binder.pdf}
+
+\section{Existing barrier and deck reinforcing drawings}\label{app:B}
+\includepdf[pages={-}, landscape, templatesize={297mm}{210mm}, pagecommand={\thispagestyle{empty}}]{Appendices/Existing_Barriers_Binder.pdf}
+
+\section{Proposed connection details}\label{app:D}
+\includepdf[pages={-}, landscape, templatesize={297mm}{210mm}, pagecommand={\thispagestyle{empty}}]{Appendices/Proposed_Connection_Binder.pdf}
+
+\section{Other related drawings}\label{app:E}
+\includepdf[pages={-}, landscape, templatesize={297mm}{210mm}, pagecommand={\thispagestyle{empty}}]{Appendices/Other_related_drawings_binder.pdf}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
