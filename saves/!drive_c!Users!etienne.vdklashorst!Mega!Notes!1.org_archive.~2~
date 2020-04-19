@@ -1,0 +1,117 @@
+#    -*- mode: org -*-
+
+Archived entries from file c:/Users/etienne.vdklashorst/Notes/1.org
+
+* NEXT Timesheet, Check expense claims, Check medical claims
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-02-24 Mon 09:50
+  :ARCHIVE_FILE: ~/Notes/1.org
+  :ARCHIVE_OLPATH: General
+  :ARCHIVE_CATEGORY: 1
+  :ARCHIVE_TODO: NEXT
+  :END:
+:NOTES:
+Timesheet completed, approx 33h hours logged to RFI 003829 last week. Expense claim not yet processed, Medical claim assessed but not yet processed. 
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-24 Mon 09:00]--[2020-02-24 Mon 09:40] =>  0:40
+:END:
+
+* Timesheet
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:48
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: General
+:ARCHIVE_CATEGORY: 1
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-26 Wed 10:40]--[2020-02-26 Wed 12:15] =>  1:35
+- Note taken on [2020-02-26 Wed 13:48] \\
+  Log 1.5 hours for CPS induction meeting
+- Note taken on [2020-02-24 Mon 16:06] \\
+  Previous weeks timesheet entries done on Monday morning
+CLOCK: [2020-02-24 Mon 08:15]--[2020-02-24 Mon 08:35] =>  0:20
+:END:
+
+* DONE ITS conduit omissions
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:56
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: West Gate Tunnel Project/RFI 003829
+:ARCHIVE_CATEGORY: 1
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: WGTP
+:END:
+** DONE Update drawings 447, 448 & 449 based on which pile caps have been constructed
+
+* DONE Phone Jason Pruzinski about report progress
+CLOSED: [2020-02-27 Thu 10:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:56
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: Anglesea Barracks
+:ARCHIVE_CATEGORY: 1
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: PDS
+:END:
+:LOGBOOK:
+- Note taken on [2020-02-27 Thu 10:36] \\
+  Jason P will be sending initial comments on scope and future work to Aurecon. I have to comment in broad terms on this so that he can present to the
+  client next week Thursday. Final report and documentation to follow on this. \\ We need final resolution about the drainage calculations. Jason will
+  provide marked up plans with building dimensions as soon as possible. \\ For the officer's mess building it is clear that the roof drainage will not
+  work but we will need to motivate to accept it.
+CLOCK: [2020-02-27 Thu 09:30]--[2020-02-27 Thu 10:22] =>  0:52
+:END:
+
+* Victorian Tunneling Centre
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:57
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_CATEGORY: 1
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-27 Thu 10:10]--[2020-02-27 Thu 11:40] =>  1:30
+:END:
+** Notes on site inspection
+- All base plate must be grouted as soon as possible after installation of the steelwork to avoid damage to anchor bolts.
+- Bolts need to be trimmed down, see AS4100 section 14.3.6.1 stating: "The length of a bolt shall be such that at least one clear thread shows above the nut and at least one thread plus the thread run out is clear beneath the nut after tightening."
+- Washers need to fit oversize holes, see AS4100 section 14.3.5.2 b)i) stating that "Oversize hole An oversize hole may be used in any or all plies of bearing-type and friction-type connections, provided hardened or plate washers are installed over the oversize hole under both the bolt head and the nut. The plate washer shall completely cover the hole such that the minimum distance from the edge of the hole to the edge of the plate washer shall be 0.5 times the hole diameter."
+- Minimum edge distances need to be observed in all cases. Edge distances are to be in line with anchor specifications in all cases. Where this is not achievable, the matter should be referred back to the structural engineer. In places where concrete has already been cracked due to installation of anchor bolts, the cracked section must be repaired using a suitable fluid epoxy solution such as Sikadur®-52 or similar. Use of expansion anchors is not recommended in any location.
+- Repair of honeycombed concrete needs to done using a high build mortar such as Sika® MonoTop® 615HB or similar. The affected portion of concrete must be chiseled away to expose unaffected concrete where there are no surface voids or loose aggregate present
+
+* AAMI Park sports lighting
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-11 Wed 13:13
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_CATEGORY: 1
+:END:
+[[file:AAMI Park Sports Lighting Notes.org][Email to Jarrad]]
+** DONE Email findings about lighting truss loads
+:LOGBOOK:
+CLOCK: [2020-03-03 Tue 14:10]--[2020-03-03 Tue 14:27] =>  0:17
+CLOCK: [2020-03-02 Mon 13:25]--[2020-03-02 Mon 14:50] =>  1:25
+CLOCK: [2020-02-27 Thu 15:20]--[2020-02-27 Thu 15:50] =>  0:30
+:END:
+
+* DONE Prepare markup of new drawings required after calling Mark Lee to discuss what they require
+  CLOSED: [2020-04-02 Thu 10:19]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-02 Thu 10:28
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: West Gate Tunnel Project/RFI-007570 Location of gantry GT-40-470-09
+  :ARCHIVE_CATEGORY: 1
+  :ARCHIVE_TODO: DONE
+  :END:
+:LOGBOOK:
+Collected drawings, make basic calculations, started markup:
+CLOCK: [2020-03-12 Thu 08:00]--[2020-03-12 Thu 16:10] =>  8:10
+CLOCK: [2020-03-11 Wed 15:00]--[2020-03-11 Wed 16:30] =>  1:30
+:END:
+
+* Get fire report and advise on fire protection measures for 120min.
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-08 Wed 12:53
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: Bourke street penetrations
+  :ARCHIVE_CATEGORY: 1
+  :END:
