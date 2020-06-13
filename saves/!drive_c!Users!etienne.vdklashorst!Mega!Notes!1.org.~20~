@@ -1,0 +1,376 @@
+#-*- mode: org -*-
+#+STARTUP: overview
+#+STARTUP: indent
+
+#+BEGIN: clocktable :scope agenda-with-archives :link t :step day :maxlevel 3 :scope file :tstart "<2020-05-18>" :tend "<now>"
+
+Daily report: [2020-05-18 Mon]
+| Headline              | Time   |
+|-----------------------+--------|
+| *Total time*          | *8:50* |
+|-----------------------+--------|
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::504943%20Marvel%20Stadium][504943 Marvel Stadium]] | 8:50   |
+
+Daily report: [2020-05-19 Tue]
+| Headline              | Time   |
+|-----------------------+--------|
+| *Total time*          | *8:50* |
+|-----------------------+--------|
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::504943%20Marvel%20Stadium][504943 Marvel Stadium]] | 8:50   |
+
+Daily report: [2020-05-20 Wed]
+| Headline                            |   Time |      |
+|-------------------------------------+--------+------|
+| *Total time*                        | *4:54* |      |
+|-------------------------------------+--------+------|
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::504943%20Marvel%20Stadium][504943 Marvel Stadium]]               |   0:50 |      |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::256677%20West%20Gate%20Tunnel%20Project][256677 West Gate Tunnel Project]]     |   0:15 |      |
+| \_  [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::RFI-008638][RFI-008638]]                      |        | 0:15 |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::502730%20Anglesea%20Barracks][502730 Anglesea Barracks]]            |   2:39 |      |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::503624%20Melbourne%20Arena%20Rigging%20Load][503624 Melbourne Arena Rigging Load]] |   0:40 |      |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::General][General]]                             |   0:30 |      |
+
+Daily report: [2020-05-21 Thu]
+| Headline                          |   Time |
+|-----------------------------------+--------|
+| *Total time*                      | *5:15* |
+|-----------------------------------+--------|
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::504943%20Marvel%20Stadium][504943 Marvel Stadium]]             |   1:26 |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::502730%20Anglesea%20Barracks][502730 Anglesea Barracks]]          |   1:24 |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::509102%20Bourke%20street%20penetrations][509102 Bourke street penetrations]] |   2:25 |
+
+Daily report: [2020-05-22 Fri]
+| Headline                                  |   Time |      |
+|-------------------------------------------+--------+------|
+| *Total time*                              | *2:42* |      |
+|-------------------------------------------+--------+------|
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::504943%20Marvel%20Stadium][504943 Marvel Stadium]]                     |   1:58 |      |
+| [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::256677%20West%20Gate%20Tunnel%20Project][256677 West Gate Tunnel Project]]           |   0:44 |      |
+| \_  [[file:c:/Users/etienne.vdklashorst/Mega/Notes/1.org::RFI-007792%20Pile%20overcast%20review%20of%20findings][RFI-007792 Pile overcast review of...]] |        | 0:44 |
+#+END:
+
+* 504943 Marvel Stadium
+:LOGBOOK:
+CLOCK: [2020-05-22 Fri 12:45]--[2020-05-22 Fri 14:43] =>  1:58
+- Marvel rigging of scoreboard
+CLOCK: [2020-05-21 Thu 14:30]--[2020-05-21 Thu 15:20] =>  0:50
+- Catchup after Tim's meeting with the architect. Discussion of further scoreboard work etc. 
+CLOCK: [2020-05-21 Thu 13:46]--[2020-05-21 Thu 14:22] =>  0:36
+CLOCK: [2020-05-20 Wed 08:10]--[2020-05-20 Wed 09:00] =>  8:50
+CLOCK: [2020-05-19 Tue 08:10]--[2020-05-19 Tue 17:00] =>  8:50
+CLOCK: [2020-05-18 Mon 08:10]--[2020-05-18 Mon 17:00] =>  6:33
+CLOCK: [2020-05-13 Wed 08:00]--[2020-05-13 Wed 10:42] =>  2:42
+CLOCK: [2020-05-12 Tue 08:15]--[2020-05-12 Tue 16:15] =>  8:00
+CLOCK: [2020-05-11 Mon 08:00]--[2020-05-11 Mon 16:30] =>  8:30
+:END:
+* 256677 West Gate Tunnel Project
+** RFI-008638 
+:LOGBOOK:
+CLOCK: [2020-05-20 Wed 09:00]--[2020-05-20 Wed 09:15] =>  0:15
+:END:
+** RFI-007965 Noise wall post to be re-fabricated
+*** TODO Update drawings as required
+** RFI-004447 Hold cloud removal
+:LOGBOOK:
+CLOCK: [2020-05-07 Thu 09:33]--[2020-05-07 Thu 12:33] =>  3:00
+- Markup drawings to Wood Marsh
+CLOCK: [2020-05-06 Wed 10:30]--[2020-05-06 Wed 13:00] =>  2:30
+- Checking previous correspondence
+CLOCK: [2020-05-04 Mon 13:30]--[2020-05-04 Mon 14:00] =>  0:30
+- Initial briefing
+:END:
+** RFI 005599 New gantries on Footscray road [0%] [0/2]
+- Note taken on [2020-03-16 Mon 12:19] \\
+  Produce foundation proposal for gantries and circulate to Civils team as well as
+  Douglas Partners
+- Note taken on [2020-03-16 Mon 10:15] \\
+  Email to Civils team to ask for guidance on further expectations
+- Note taken on [2020-02-26 Wed 13:51] \\
+  Spoke with Riley about gantry designs. He stated that they would prefer gantries to be supported on piled foundations
+:LOGBOOK:
+CLOCK: [2020-03-16 Mon 09:05]--[2020-03-16 Mon 09:15] =>  0:10
+CLOCK: [2020-02-28 Fri 08:30]--[2020-02-28 Fri 10:15] =>  1:45
+CLOCK: [2020-02-26 Wed 12:30]--[2020-02-26 Wed 15:07] =>  2:37
+CLOCK: [2020-02-26 Wed 08:10]--[2020-02-26 Wed 12:10] =>  4:00
+CLOCK: [2020-02-25 Tue 15:40]--[2020-02-25 Tue 16:10] =>  0:30
+:END:
+*** TODO Ask Rafal about gantry updates, who does design check?
+There is a preference to support the gantries from below. It is very important that pile drawings be issued asap so that
+piling can continue before the launching gantry is in place. Rafal requested that all documentation that is currently
+available be compiled for review.
+*** TODO Propose solution for gantry connections to barriers based on possible solutions from other drawings
+:LOGBOOK:
+- Note taken on [2020-02-19 Wed 16:29] \\
+  Checking project wide drawings for gantry support solutions. Also Skype call to Mark Lee to discuss
+CLOCK: [2020-02-19 Wed 13:50]--[2020-02-19 Wed 16:35] =>  2:45
+CLOCK: [2020-02-17 Mon 16:00]--[2020-02-17 Mon 17:00] =>  1:00
+- Study existing drawings for suitable solutions. Downloaded drawings from Aconex as latest
+:END:
+:NOTES:
+- WGT-400-440-DRG-AJV-440-000-0211 shows a 400x400x12 gantry spanning 14673mm
+- Cantilever boxes are much bigger ~700x700x16
+- For barrier mounted connection, the barrier will have to be structurally connected to a large foundation, see e.g. WGT-400-440-DRG-AJV-440-000-0601
+- WGT-402-410-DRG-YWL-410-060-0585-0 shows veloway connection brackets. Propose something similar for gantries? Support from above was not seen as acceptable.
+:END:
+                                                                   :ARCHIVE:
+*** Archive :ARCHIVE:
+**** DONE Read latest correspondence about Footscray road gantries
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:38
+:END:
+**** DONE List issues with limited overhead gantry clearance - Is there an issue? Confirm with Chantel Swart
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:39
+:END:
+** RFI-006666 Type 4 Acrylic on Curve and HD Bolt Details [0%] [0/1]
+- Check out CPBJH-RTRFI-045159 for confirmation of gasket size
+*** TODO Call Emily do discuss impact in Civils
+SCHEDULED: <2020-05-25 Mon 08:00>
+** RFI 007564 Precast fascia panels with reduced ferrules
+:LOGBOOK:
+CLOCK: [2020-05-04 Mon 15:25]--[2020-05-04 Mon 16:25] =>  1:00
+:END:
+** RFI-007570 Location of gantry GT-40-470-09 [100%] [2/2]
+:LOGBOOK:
+CLOCK: [2020-05-11 Mon 16:30]--[2020-05-11 Mon 17:00] =>  0:30
+- Download and upload of reports and drawinghs from the Tulla widening
+CLOCK: [2020-04-14 Tue 13:00]--[2020-04-14 Tue 13:41] =>  0:41
+- Email with findings to Iwan
+CLOCK: [2020-04-06 Mon 11:30]--[2020-04-06 Mon 16:30] =>  5:00
+CLOCK: [2020-04-02 Thu 09:30]--[2020-04-02 Thu 12:47] =>  3:17
+- Sending design note to Luis and Iwan
+CLOCK: [2020-04-01 Wed 08:10]--[2020-04-01 Wed 16:30] =>  8:20
+:END:
+*** Archive                                                       :ARCHIVE:
+**** DONE Prepare markup of new drawings required after calling Mark Lee to discuss what they require
+CLOSED: [2020-04-02 Thu 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+:LOGBOOK:
+Collected drawings, make basic calculations, started markup:
+CLOCK: [2020-03-12 Thu 08:00]--[2020-03-12 Thu 16:10] =>  8:10
+CLOCK: [2020-03-11 Wed 15:00]--[2020-03-11 Wed 16:30] =>  1:30
+:END:
+**** DONE Contact Alex to give him a status update
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-07 Tue 08:27
+:END:
+
+**** DONE Barrier design notes - communicate findings to Iwan and Louis: [[file:~/OneDrive%20-%20Aurecon%20Group/01%20Jobs/256677%20WGTP/01%20RFIs/RFI-007570%20Location%20of%20Gantry%20GT-40-470-09/Working/Calc%20Pack/RFI-007570_Location_of_Gantry_GT-40-470-09.tex][Design Note]] 
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-14 Tue 14:11
+:END:
+**** DONE Check reactions for gantry
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-14 Tue 14:11
+:END:
+** RFI-007792 Pile overcast review of findings
+:LOGBOOK:
+CLOCK: [2020-05-22 Fri 14:00]--[2020-05-22 Fri 14:44] =>  0:44
+:END:
+** Archive :ARCHIVE:
+*** DONE RFI-005012 Bridge 61 lifting lugs [0%] [0/1]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:30
+:END:
+:LOGBOOK:
+CLOCK: [2020-03-31 Tue 07:45]--[2020-03-31 Tue 12:00] =>  4:15
+CLOCK: [2020-03-30 Mon 07:35]--[2020-03-30 Mon 15:45] =>  8:10
+:END:
+**** TODO Check local stresses on connection of lifting lug
+**** Archive                                                     :ARCHIVE:
+***** DONE Check latest correspondence
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+***** DONE Midas models
+CLOSED: [2020-03-30 Mon 16:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+- Check forces for current lifting lug positions and compare with new positions
+- Talk to Peter and David Taylor about bridge 50 and bridge 70 lifting lug eccentricities as well as cross bracing
+*** DONE RFI-007460 South Portal PC barriers on roof deck [0%] [0/1]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:30
+:END:
+:LOGBOOK:
+CLOCK: [2020-04-17 Fri 08:00]--[2020-04-17 Fri 11:04] =>  3:04
+CLOCK: [2020-04-14 Tue 13:30]--[2020-04-14 Tue 16:30] =>  3:00
+CLOCK: [2020-04-15 Wed 08:05]--[2020-04-15 Wed 13:35] =>  5:30
+:END:
+*** DONE RFI-007965 HD Bolts out of position
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:30
+:END:
+:LOGBOOK:
+CLOCK: [2020-04-08 Wed 08:05]--[2020-04-08 Wed 12:51] =>  4:46
+- Prepared initail response to discuss with James Rafferty
+CLOCK: [2020-04-07 Tue 09:10]--[2020-04-07 Tue 11:00] =>  1:50
+:END:
+* 502730 Anglesea Barracks
+:LOGBOOK:
+CLOCK: [2020-05-21 Thu 10:28]--[2020-05-21 Thu 11:52] =>  1:24
+- Calls to geotech engineer and follow up with PM about pile solution, also further research on micropiling
+CLOCK: [2020-05-20 Wed 15:00]--[2020-05-20 Wed 16:39] =>  1:39
+- Formulating reply about pile lengths
+CLOCK: [2020-05-20 Wed 12:30]--[2020-05-20 Wed 13:30] =>  1:00
+- Geotechnical design parameters check and email to team
+CLOCK: [2020-05-07 Thu 14:00]--[2020-05-07 Thu 14:40] =>  0:40
+CLOCK: [2020-05-07 Thu 08:30]--[2020-05-07 Thu 09:15] =>  0:45
+CLOCK: [2020-04-15 Wed 09:05]--[2020-04-15 Wed 09:35] =>  0:30
+- Skype meeting about new scope
+CLOCK: [2020-03-31 Tue 12:30]--[2020-03-31 Tue 13:00] =>  0:30
+- Wrote reply about structural repair method for chimney
+CLOCK: [2020-02-27 Thu 10:21]--[2020-02-27 Thu 10:22] =>  0:01
+- Preparation of expense reports (time not capptured before), Review of photos sent from site
+CLOCK: [2020-02-21 Fri 09:25]--[2020-02-21 Fri 11:26] =>  2:01
+:END:
+** TODO [#A] Provide drawings for four issues raised within new scope. 
+SCHEDULED: <2020-05-22 Fri>
+- Drawings to be completred for verification by end of May
+** Archive                                                         :ARCHIVE:
+*** DONE Read Jason P's prelim report
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:36
+:END:
+:LOGBOOK:
+CLOCK: [2020-03-02 Mon 12:30]--[2020-03-02 Mon 13:25] =>  0:55
+:END:
+*** DONE Skype meeting to discuss next works
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:36
+:END:
+:LOGBOOK:
+CLOCK: [2020-03-03 Tue 15:05]--[2020-03-03 Tue 16:20] =>  1:15
+CLOCK: [2020-03-03 Tue 13:21]--[2020-03-03 Tue 14:07] =>  0:46
+:END:
+*** CANCELED Provide feedback on engineering reports received from Jason Pruzinski
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-15 Wed 13:42
+:END:
+*** CANCELED Detail two methods for constructing new sandstone parapets on site
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-15 Wed 13:43
+:END:
+[[file:Anglesea.org][Anglesea Report Notes]]
+:NOTES:
+- Full scaffolding plus crane
+- Access to back of building below scaffolding seems required
+- Roof needs to be propped from the inside taking account of the timber floor that will not bear the load
+- Comment on whether the parapet needs back pinning - propose materials and methodology
+- Underpinning of base commander's building. Method and quantity required
+:END:
+* 509102 Bourke street penetrations 
+:LOGBOOK:
+CLOCK: [2020-05-21 Thu 14:22]--[2020-05-21 Thu 15:45] =>  0:58
+CLOCK: [2020-05-21 Thu 12:35]--[2020-05-21 Thu 13:37] =>  1:02
+- Site inspection to confirm remedial action for overbreak into existing slab
+CLOCK: [2020-05-07 Thu 16:00]--[2020-05-07 Thu 17:00] =>  1:00
+- Site queries
+CLOCK: [2020-05-07 Thu 11:30]--[2020-05-07 Thu 13:30] =>  2:00
+- Site queries
+CLOCK: [2020-05-05 Tue 11:30]--[2020-05-05 Tue 13:30] =>  2:00
+- Project governance form
+CLOCK: [2020-05-05 Tue 11:30]--[2020-05-05 Tue 14:00] =>  2:30
+- Site inspection
+CLOCK: [2020-04-14 Tue 09:00]--[2020-04-14 Tue 12:00] =>  3:00
+- Preparing project registration documentation
+CLOCK: [2020-04-07 Tue 11:10]--[2020-04-07 Tue 12:35] =>  1:25
+- Proposal for extension of works prepare and send
+CLOCK: [2020-04-06 Mon 12:00]--[2020-04-06 Mon 14:15] =>  2:15
+- Making final changes to drawings after review by Chris Jacques
+CLOCK: [2020-04-02 Thu 08:30]--[2020-04-02 Thu 10:00] =>  1:30
+- Setting up verification documents for Chris Jacques
+CLOCK: [2020-04-01 Wed 16:30]--[2020-04-01 Wed 17:30] =>  1:00
+- Getting certification documents from Graeme
+CLOCK: [2020-03-31 Tue 13:05]--[2020-03-31 Tue 14:46] =>  1:41
+- Responded to requests from Building surveyor for additional information. Awaiting response from PM.
+CLOCK: [2020-03-31 Tue 13:05]--[2020-03-31 Tue 14:15] =>  1:10
+CLOCK: [2020-03-30 Mon 15:46]--[2020-03-30 Mon 16:46] =>  1:00
+- Studied previous work of Billy as well as old drawings
+CLOCK: [2020-03-25 Wed 07:40]--[2020-03-25 Wed 15:40] =>  8:00
+CLOCK: [2020-03-23 Mon 10:00]--[2020-03-23 Mon 11:30] =>  1:30
+CLOCK: [2020-03-17 Tue 10:14]--[2020-03-17 Tue 13:00] =>  2:46
+CLOCK: [2020-03-10 Tue 11:00]--[2020-03-10 Tue 14:08] =>  3:08
+:END:
+:NOTES:
+- Spoke with Martin from ARUP about drawings. ARUP sees no reason not to use the
+  current solution to fill the stair voids.
+- Note taken on [2020-03-10 Tue 16:45] \\
+  Spoke to Ahmad Ahmad and he indicated that the client prefers a bondek solution,
+  i.e. a concrete slab instread of a timber infil type solution
+:END:
+** TODO Create Safe design risk register off template
+** WAIT Send updated price for additional openings
+- State "WAIT"       from "TODO"       [2020-04-08 Wed 12:53] \\
+  Awaiting response from PM
+** Archive                                                         :ARCHIVE:
+*** DONE Prepare final drawings showing location of penetrations on all levels 
+CLOSED: [2020-04-02 Thu 10:20] SCHEDULED: <2020-04-01 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:34
+:END:
+*** DONE Get Graeme's correct registration number 
+CLOSED: [2020-03-31 Tue 14:37]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:34
+:END:
+*** DONE Call John from AMP to discuss reasons for requiring reinforced concrete infills
+CLOSED: [2020-03-30 Mon 16:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:34
+:END:
+*** DONE Call Graeme about deliverables
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:34
+:END:
+*** DONE Get verification completed
+*** DONE Get job number and capture correct timesheet hours
+SCHEDULED: <2020-04-15 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-05-06 Wed 11:36
+:END:
+* 503624 Melbourne Arena Rigging Load
+:LOGBOOK:
+CLOCK: [2020-05-20 Wed 13:50]--[2020-05-20 Wed 14:30] =>  0:40
+CLOCK: [2020-04-07 Tue 08:53]--[2020-04-07 Tue 11:26] =>  2:33
+CLOCK: [2020-04-06 Mon 10:15]--[2020-04-06 Mon 10:30] =>  0:15
+- Chat with Tim about project
+:END:
+** WAIT Produce close final out report
+:LOGBOOK:
+CLOCK: [2020-03-02 Mon 11:45]--[2020-03-02 Mon 12:15] =>  0:30
+- Downloading photos from .heic format
+:END:
+** Talk to Mark and Tim about Glen's request for work. Also discuss potential digital solution with them.
+** TODO RLA, overlay new grid onto structure and see how loads correlate
+* General
+:LOGBOOK:
+CLOCK: [2020-05-20 Wed 14:30]--[2020-05-20 Wed 15:00] =>  0:00
+- Session about embodied energy with Uni Melbourne
+:END:
+* Dormant
+** 252289 Telstra Springvale
+:LOGBOOK:
+CLOCK: [2020-05-04 Mon 10:00]--[2020-05-04 Mon 11:00] =>  1:00
+CLOCK: [2020-03-23 Mon 12:15]--[2020-03-23 Mon 13:21] =>  1:06
+:END:
+**** DONE WAIT Markup of foundations - Feedback from site required
+** 500577 YJRP
+:LOGBOOK:
+CLOCK: [2020-05-07 Thu 13:20]--[2020-05-07 Thu 13:50] =>  0:30
+CLOCK: [2020-05-04 Mon 09:00]--[2020-05-04 Mon 10:00] =>  1:00
+:END:
+*** Check YJRP roof again
+** 244876 VTC 
+*** Braces for crane beam
+:LOGBOOK:
+CLOCK: [2020-05-04 Mon 08:00]--[2020-05-04 Mon 10:00] =>  2:00
+- Checking shop drawings
+:END:
+* Engineers Australia Registration
+** Register on website
+** List requirements
+[[file:Registration.org][Registration Notes]]

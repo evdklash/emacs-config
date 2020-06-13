@@ -1,0 +1,23 @@
+fn main() {
+    #[derive(Debug)]
+    struct Beam {
+        s: Section,
+        length: f64,
+    }
+
+    #[derive(Debug)]
+    struct Section {
+        name: String,
+        a: f64,
+    }
+
+    let name = "B1200X400".to_string();
+    let area = 1200f64 * 400f64;
+    let sec_1 = Section { name, a: area };
+    println!("{:?}", sec_1);
+    let b_1 = Beam {
+        s: sec_1,
+        length: 12000f64,
+    };
+    println!("{:?}", b_1);
+}

@@ -4,32 +4,40 @@
 ;;; use-package is already loaded and ready to go!
 ;;; use-package docs: https://github.com/jwiegley/use-package
 
+(setq org-journal-dir "C:/Users/etienne.vdklashorst/Mega/Diary/")
+(require 'org-journal)
+
 ;; Rust settings
-(require 'rust-mode)
-(with-eval-after-load 'rust-mode
-;; Rust Formatter. Run rustfmt before saving rust buffers
-(setq rust-format-on-save t))
+(use-package flycheck
+  :hook (rust-mode . flycheck-mode))
+(use-package flycheck-rust
+  :config (add-hook 'flycheck-mode-hook #'flycheck-rust-setup))
+
+(use-package company
+  :hook (prog-mode . company-mode)
+  :config (setq company-tooltip-align-annotations t)
+          (setq company-minimum-prefix-length 1))
+
+(use-package lsp-mode
+  :commands lsp
+  :config (require 'lsp-clients)
+          (setq lsp-rust-server 'rust-analyzer)
+		  (setq lsp-rust-analyzer-server-command '("~/.cargo/bin/rust-analyzer")))
+
+(use-package lsp-ui)
+
+(use-package rust-mode
+  :hook (rust-mode . lsp))
 
 ;; Add keybindings for interacting with Cargo
 (use-package cargo
   :hook (rust-mode . cargo-minor-mode))
 
-(require 'lsp-mode) ;; language server protocol
-(with-eval-after-load 'lsp-mode
-(add-hook 'rust-mode-hook #'lsp))
-;; (add-hook 'rust-mode-hook #'flycheck-mode))
-
-;; excessive UI feedback for light reading between coding
-(require 'lsp-ui)
-(with-eval-after-load 'lsp-ui
-(add-hook 'lsp-mode-hook 'lsp-ui-mode))
-
-;; autocompletions for lsp (available with melpa enabled)
-(require 'company-lsp)
-(push 'company-lsp company-backends)
+;; Add keybindings for interacting with Cargo
+(use-package cargo :hook (rust-mode . cargo-minor-mode))
 
 ;; tell company to complete on tabs instead of sitting there like a moron
-(define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
+;; (define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
 
 (use-package company
   :hook (prog-mode . company-mode)
@@ -110,7 +118,7 @@
 (require 'linum-relative)
 (setq linum-relative-backend 'display-line-numbers-mode)
 ;; (setq linum-relative-global-mode)
-(global-display-line-numbers-mode)
+;; (global-display-line-numbers-mode)
 
 (setq reftex-bibliography-commands '("addbibresource"))
 (autoload 'helm-bibtex "helm-bibtex" "" t)
@@ -126,13 +134,29 @@
 (define-key helm-command-map (kbd "<apps>") 'helm-resume)
 
 (setq org-return-follows-link t)
+(add-hook 'org-mode-hook 'visual-line-mode)
 (setq org-agenda-start-on-weekday 1)
 (setq org-duration-format (quote h:mm))
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
 (setq org-todo-keywords
-      '((sequence "TODO(t)" "|" "DONE(d@!)" "CANCELED(c@!)")))
+      '((sequence "TODO(t)" "BUSY(b)" "WAITING(w)" "|" "DONE(d@!)" "CANCELED(c@!)")))
+(setq org-bullets-bullet-list (quote ("◉" "◆" "✚" "☀" "○")))
+
+
+;; Show lot of clocking history so it's easy to pick items off the `C-c I` list
+(setq org-clock-history-length 23)
+
+(defun eos/org-clock-in ()
+  (interactive)
+  (org-clock-in '(4)))
+
+(global-set-key (kbd "C-c I") #'eos/org-clock-in)
+(global-set-key (kbd "C-c O") #'org-clock-out)
+
+;; Set default column view headings: Task Priority Effort Clock_Summary
+(setq org-columns-default-format "%50ITEM(Task) %2PRIORITY %10Effort(Effort){:} %10CLOCKSUM")
 
 (add-to-list 'exec-path "C:/msys64/mingw64/bin/")
 (setq ispell-program-name (locate-file "hunspell"

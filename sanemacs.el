@@ -73,7 +73,7 @@
 ;;; Lockfiles unfortunately cause more pain than benefit
 (setq create-lockfiles nil)
 
-;;; Load wheatgrass as the default theme if one is not loaded already
+;;; Load zenburn as the default theme if one is not loaded already
 
 (if (not custom-enabled-themes)
     (load-theme 'zenburn t))

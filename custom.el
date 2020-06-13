@@ -3,19 +3,21 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(calendar-hebrew-all-holidays-flag nil)
  '(company-quickhelp-color-background "#4F4F4F")
  '(company-quickhelp-color-foreground "#DCDCCC")
  '(custom-safe-themes
    (quote
     ("76c5b2592c62f6b48923c00f97f74bcb7ddb741618283bdb2be35f3c0e1030e3" default)))
+ '(diary-show-holidays-flag nil)
  '(fci-rule-color "#383838")
  '(nrepl-message-colors
    (quote
     ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
- '(org-agenda-files (quote ("~/Mega/Notes/1.org")))
+ '(org-agenda-files (quote ("~/Mega/Notes/OrgMode.org")))
  '(package-selected-packages
    (quote
-    (company-lsp frecentf ace-window flycheck-rust cargo rust-mode lsp-ui lsp-mode flycheck desktop+ idomenu linum-relative auctex-latexmk yasnippet-snippets yasnippet evil which-key company helm-bibtex zenburn-theme auctex helm undo-tree use-package)))
+    (org-journal toml-mode lsp-rust company-lsp frecentf ace-window flycheck-rust cargo rust-mode lsp-ui lsp-mode flycheck desktop+ idomenu linum-relative auctex-latexmk yasnippet-snippets yasnippet evil which-key company helm-bibtex zenburn-theme auctex helm undo-tree use-package)))
  '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
  '(vc-annotate-background "#2B2B2B")
  '(vc-annotate-color-map

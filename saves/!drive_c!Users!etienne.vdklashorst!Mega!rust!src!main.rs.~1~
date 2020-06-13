@@ -1,0 +1,47 @@
+fn main() {
+    let p1 = Point::from ( 0.0, 0.0 );
+    let p2 = Point::from ( 10.0, 10.0 );
+    let l1 = Line::from(&p1, &p2);
+
+    println!("x={:.2}, y={:.2}", p1.get_x(), p1.get_y());
+    println!("l={:.2}", l1.length());
+}
+
+#[derive(Default)]
+struct Point {
+    x: f64,
+    y: f64,
+}
+
+impl Point {
+    fn get_x(&self) -> f64 {
+        self.x
+    }
+    fn get_y(&self) -> f64 {
+        self.y
+    }
+    fn from(x: f64, y: f64) -> Point {
+        Point { x, y }
+    }
+}
+
+struct Line<'a> {
+    p1: &'a Point,
+    p2: &'a Point,
+}
+
+impl<'a> Line<'a> {
+    fn from (p1: &'a Point, p2: &'a Point) -> Line<'a> {
+        Line { p1, p2 }
+    }
+    fn length(&self) -> f64 {
+        let p1x = self.p1.x;
+        let p2x = self.p2.x;
+        let p1y = self.p1.y;
+        let p2y = self.p2.y;
+        let dx = (p1x-p2x).powf(2.0);
+        let dy = (p1y-p2y).powf(2.0);
+        let length = (dx+dy).sqrt();
+        return length;
+    }
+}

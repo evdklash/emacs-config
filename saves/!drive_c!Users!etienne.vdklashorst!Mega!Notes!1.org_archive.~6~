@@ -1,0 +1,309 @@
+#    -*- mode: org -*-
+
+Archived entries from file c:/Users/etienne.vdklashorst/Notes/1.org
+
+* NEXT Timesheet, Check expense claims, Check medical claims
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-02-24 Mon 09:50
+  :ARCHIVE_FILE: ~/Notes/1.org
+  :ARCHIVE_OLPATH: General
+  :ARCHIVE_CATEGORY: 1
+  :ARCHIVE_TODO: NEXT
+  :END:
+:NOTES:
+Timesheet completed, approx 33h hours logged to RFI 003829 last week. Expense claim not yet processed, Medical claim assessed but not yet processed. 
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-24 Mon 09:00]--[2020-02-24 Mon 09:40] =>  0:40
+:END:
+
+* Timesheet
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:48
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: General
+:ARCHIVE_CATEGORY: 1
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-26 Wed 10:40]--[2020-02-26 Wed 12:15] =>  1:35
+- Note taken on [2020-02-26 Wed 13:48] \\
+  Log 1.5 hours for CPS induction meeting
+- Note taken on [2020-02-24 Mon 16:06] \\
+  Previous weeks timesheet entries done on Monday morning
+CLOCK: [2020-02-24 Mon 08:15]--[2020-02-24 Mon 08:35] =>  0:20
+:END:
+
+* DONE ITS conduit omissions
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:56
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: West Gate Tunnel Project/RFI 003829
+:ARCHIVE_CATEGORY: 1
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: WGTP
+:END:
+** DONE Update drawings 447, 448 & 449 based on which pile caps have been constructed
+
+* DONE Phone Jason Pruzinski about report progress
+CLOSED: [2020-02-27 Thu 10:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:56
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_OLPATH: Anglesea Barracks
+:ARCHIVE_CATEGORY: 1
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: PDS
+:END:
+:LOGBOOK:
+- Note taken on [2020-02-27 Thu 10:36] \\
+  Jason P will be sending initial comments on scope and future work to Aurecon. I have to comment in broad terms on this so that he can present to the
+  client next week Thursday. Final report and documentation to follow on this. \\ We need final resolution about the drainage calculations. Jason will
+  provide marked up plans with building dimensions as soon as possible. \\ For the officer's mess building it is clear that the roof drainage will not
+  work but we will need to motivate to accept it.
+CLOCK: [2020-02-27 Thu 09:30]--[2020-02-27 Thu 10:22] =>  0:52
+:END:
+
+* Victorian Tunneling Centre
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-02 Mon 08:57
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_CATEGORY: 1
+:END:
+:LOGBOOK:
+CLOCK: [2020-02-27 Thu 10:10]--[2020-02-27 Thu 11:40] =>  1:30
+:END:
+** Notes on site inspection
+- All base plate must be grouted as soon as possible after installation of the steelwork to avoid damage to anchor bolts.
+- Bolts need to be trimmed down, see AS4100 section 14.3.6.1 stating: "The length of a bolt shall be such that at least one clear thread shows above the nut and at least one thread plus the thread run out is clear beneath the nut after tightening."
+- Washers need to fit oversize holes, see AS4100 section 14.3.5.2 b)i) stating that "Oversize hole An oversize hole may be used in any or all plies of bearing-type and friction-type connections, provided hardened or plate washers are installed over the oversize hole under both the bolt head and the nut. The plate washer shall completely cover the hole such that the minimum distance from the edge of the hole to the edge of the plate washer shall be 0.5 times the hole diameter."
+- Minimum edge distances need to be observed in all cases. Edge distances are to be in line with anchor specifications in all cases. Where this is not achievable, the matter should be referred back to the structural engineer. In places where concrete has already been cracked due to installation of anchor bolts, the cracked section must be repaired using a suitable fluid epoxy solution such as Sikadur®-52 or similar. Use of expansion anchors is not recommended in any location.
+- Repair of honeycombed concrete needs to done using a high build mortar such as Sika® MonoTop® 615HB or similar. The affected portion of concrete must be chiseled away to expose unaffected concrete where there are no surface voids or loose aggregate present
+
+* AAMI Park sports lighting
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-03-11 Wed 13:13
+:ARCHIVE_FILE: /mnt/c/Users/etienne.vdklashorst/Mega/Notes/1.org
+:ARCHIVE_CATEGORY: 1
+:END:
+[[file:AAMI Park Sports Lighting Notes.org][Email to Jarrad]]
+** DONE Email findings about lighting truss loads
+:LOGBOOK:
+CLOCK: [2020-03-03 Tue 14:10]--[2020-03-03 Tue 14:27] =>  0:17
+CLOCK: [2020-03-02 Mon 13:25]--[2020-03-02 Mon 14:50] =>  1:25
+CLOCK: [2020-02-27 Thu 15:20]--[2020-02-27 Thu 15:50] =>  0:30
+:END:
+
+* DONE Prepare markup of new drawings required after calling Mark Lee to discuss what they require
+  CLOSED: [2020-04-02 Thu 10:19]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-02 Thu 10:28
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: West Gate Tunnel Project/RFI-007570 Location of gantry GT-40-470-09
+  :ARCHIVE_CATEGORY: 1
+  :ARCHIVE_TODO: DONE
+  :END:
+:LOGBOOK:
+Collected drawings, make basic calculations, started markup:
+CLOCK: [2020-03-12 Thu 08:00]--[2020-03-12 Thu 16:10] =>  8:10
+CLOCK: [2020-03-11 Wed 15:00]--[2020-03-11 Wed 16:30] =>  1:30
+:END:
+
+* Get fire report and advise on fire protection measures for 120min.
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-08 Wed 12:53
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: Bourke street penetrations
+  :ARCHIVE_CATEGORY: 1
+  :END:
+
+* Provide drawings for four issues raised within new scope. 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-15 Wed 13:44
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: Anglesea Barracks
+  :ARCHIVE_CATEGORY: 1
+  :END:
+- Drawings to be completred for verification by end of April
+
+* West Gate Tunnel Project
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-04-15 Wed 13:59
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_CATEGORY: 1
+  :END:
+:LOGBOOK:
+CLOCK: [2020-04-07 Tue 11:00]--[2020-04-07 Tue 11:40] =>  0:40
+- Zone 400 meeting
+:END:
+:NOTES:
+- Called Scott Henning about RFI's for the West. James Refferty is in fact the structures lead in the West 
+- Linked file: [[file:WGTP_processes_notes.org][Process Notes]] :
+:END:
+** RFI-006666 - Type 4 Acrylic on Curve and HD Bolt Details [0%] [0/1]
+** RFI-007460 South Portal PC barriers on roof deck [0%] [0/1]
+:LOGBOOK:
+CLOCK: [2020-04-14 Tue 13:30]--[2020-04-15 Wed 14:11] => 24:41
+CLOCK: [2020-04-15 Wed 08:05]--[2020-04-15 Wed 13:35] =>  5:30
+:END:
+** RFI-005012 Bridge 61 lifting lugs [0%] [0/1]
+:LOGBOOK:
+CLOCK: [2020-03-31 Tue 07:45]--[2020-03-31 Tue 12:00] =>  4:15
+CLOCK: [2020-03-30 Mon 07:35]--[2020-03-30 Mon 15:45] =>  8:10
+:END:
+*** TODO Check local stresses on connection of lifting lug
+*** Archive                                                       :ARCHIVE:
+**** DONE Check latest correspondence
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+**** DONE Midas models
+CLOSED: [2020-03-30 Mon 16:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+- Check forces for current lifting lug positions and compare with new positions
+- Talk to Peter and David Taylor about bridge 50 and bridge 70 lifting lug eccentricities as well as cross bracing
+** RFI 005599 New gantries on Footscray road [0%] [0/2]
+- Note taken on [2020-03-16 Mon 12:19] \\
+  Produce foundation proposal for gantries and circulate to Civils team as well as
+  Douglas Partners
+- Note taken on [2020-03-16 Mon 10:15] \\
+  Email to Civils team to ask for guidance on further expectations
+- Note taken on [2020-02-26 Wed 13:51] \\
+  Spoke with Riley about gantry designs. He stated that they would prefer gantries to be supported on piled foundations
+:LOGBOOK:
+CLOCK: [2020-03-16 Mon 09:05]--[2020-03-16 Mon 09:15] =>  0:10
+CLOCK: [2020-02-28 Fri 08:30]--[2020-02-28 Fri 10:15] =>  1:45
+CLOCK: [2020-02-26 Wed 12:30]--[2020-02-26 Wed 15:07] =>  2:37
+CLOCK: [2020-02-26 Wed 08:10]--[2020-02-26 Wed 12:10] =>  4:00
+CLOCK: [2020-02-25 Tue 15:40]--[2020-02-25 Tue 16:10] =>  0:30
+:END:
+*** TODO Ask Rafal about gantry updates, who does design check?
+There is a preference to support the gantries from below. It is very important that pile drawings be issued asap so that
+piling can continue before the launching gantry is in place. Rafal requested that all documentation that is currently
+available be compiled for review.
+*** TODO Propose solution for gantry connections to barriers based on possible solutions from other drawings
+:LOGBOOK:
+- Note taken on [2020-02-19 Wed 16:29] \\
+  Checking project wide drawings for gantry support solutions. Also Skype call to Mark Lee to discuss
+CLOCK: [2020-02-19 Wed 13:50]--[2020-02-19 Wed 16:35] =>  2:45
+CLOCK: [2020-02-17 Mon 16:00]--[2020-02-17 Mon 17:00] =>  1:00
+- Study existing drawings for suitable solutions. Downloaded drawings from Aconex as latest
+:END:
+:NOTES:
+- WGT-400-440-DRG-AJV-440-000-0211 shows a 400x400x12 gantry spanning 14673mm
+- Cantilever boxes are much bigger ~700x700x16
+- For barrier mounted connection, the barrier will have to be structurally connected to a large foundation, see e.g. WGT-400-440-DRG-AJV-440-000-0601
+- WGT-402-410-DRG-YWL-410-060-0585-0 shows veloway connection brackets. Propose something similar for gantries? Support from above was not seen as acceptable.
+:END:
+*** Archive                                                       :ARCHIVE:
+**** DONE Read latest correspondence about Footscray road gantries :ARCHIVE:
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+**** DONE List issues with limited overhead gantry clearance - Is there an issue? Confirm with Chantel Swart :ARCHIVE:
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:36
+:END:
+
+** RFI-007570 Location of gantry GT-40-470-09 [100%] [2/2]
+:LOGBOOK:
+CLOCK: [2020-04-14 Tue 13:00]--[2020-04-14 Tue 13:41] =>  0:41
+- Email with findings to Iwan
+CLOCK: [2020-04-06 Mon 11:30]--[2020-04-06 Mon 16:30] =>  5:00
+CLOCK: [2020-04-02 Thu 09:30]--[2020-04-02 Thu 12:47] =>  3:17
+- Sending design note to Luis and Iwan
+CLOCK: [2020-04-01 Wed 08:10]--[2020-04-01 Wed 16:30] =>  8:20
+:END:
+*** Archive                                                       :ARCHIVE:
+**** DONE Prepare markup of new drawings required after calling Mark Lee to discuss what they require
+CLOSED: [2020-04-02 Thu 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-02 Thu 10:35
+:END:
+:LOGBOOK:
+Collected drawings, make basic calculations, started markup:
+CLOCK: [2020-03-12 Thu 08:00]--[2020-03-12 Thu 16:10] =>  8:10
+CLOCK: [2020-03-11 Wed 15:00]--[2020-03-11 Wed 16:30] =>  1:30
+:END:
+**** DONE Contact Alex to give him a status update
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-07 Tue 08:27
+:END:
+
+**** DONE Barrier design notes - communicate findings to Iwan and Louis: [[file:~/OneDrive%20-%20Aurecon%20Group/01%20Jobs/256677%20WGTP/01%20RFIs/RFI-007570%20Location%20of%20Gantry%20GT-40-470-09/Working/Calc%20Pack/RFI-007570_Location_of_Gantry_GT-40-470-09.tex][Design Note]] 
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-14 Tue 14:11
+:END:
+**** DONE Check reactions for gantry
+:PROPERTIES:
+:ARCHIVE_TIME: 2020-04-14 Tue 14:11
+:END:
+** RFI-007965 HD Bolts out of position 
+:LOGBOOK:
+CLOCK: [2020-04-08 Wed 08:05]--[2020-04-08 Wed 12:51] =>  4:46
+- Prepared initail response to discuss with James Rafferty
+CLOCK: [2020-04-07 Tue 09:10]--[2020-04-07 Tue 11:00] =>  1:50
+:END:
+
+* RFI-007648 Shop drawing review
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-05-13 Wed 10:37
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: 256677 West Gate Tunnel Project
+  :ARCHIVE_CATEGORY: 1
+  :END:
+:LOGBOOK:
+CLOCK: [2020-05-05 Tue 14:30]--[2020-05-05 Tue 16:30] =>  2:00
+:END:
+
+* 503624 MOPT Rigging Loads
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-05-18 Mon 08:29
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_CATEGORY: 1
+  :END:
+:LOGBOOK:
+CLOCK: [2020-04-14 Tue 15:40]--[2020-04-14 Tue 16:10] =>  0:30
+:END:
+** Provide final review of rigging loads and certification letter
+
+* General 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-05-18 Mon 08:30
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_CATEGORY: 1
+  :END:
+** TODO Start of month payments 
+DEADLINE: <2020-05-01 Fri +1m -3d>
+** TODO Timesheet
+SCHEDULED: <2020-05-15 Fri +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2020-04-14 Tue 09:29]
+:END:
+- State "DONE"       from "TODO"       [2020-04-14 Tue 09:29]
+- State "DONE"       from "WAIT"       [2020-04-06 Mon 16:12]
+:LOGBOOK:
+CLOCK: [2020-04-14 Tue 07:45]--[2020-04-14 Tue 08:15] =>  0:30
+CLOCK: [2020-04-06 Mon 15:00]--[2020-04-06 Mon 15:30] =>  0:30
+:END:
+** TODO Unit meetings
+SCHEDULED: <2020-04-20 Mon 09:00-10:00 +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2020-04-06 Mon 16:12]
+:END:
+- State "DONE"       from "WAIT"       [2020-04-06 Mon 16:12]
+:LOGBOOK:
+CLOCK: [2020-04-06 Mon 09:00]--[2020-04-06 Mon 10:00] =>  1:00
+CLOCK: [2020-03-30 Mon 09:00]--[2020-03-30 Mon 09:50] =>  0:50
+- Unit meeting
+:END:
+
+* TODO Call Emily do discuss impact in Civils
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2020-05-22 Fri 12:06
+  :ARCHIVE_FILE: ~/Mega/Notes/1.org
+  :ARCHIVE_OLPATH: 256677 West Gate Tunnel Project/RFI-006666 Type 4 Acrylic on Curve and HD Bolt Details
+  :ARCHIVE_CATEGORY: 1
+  :ARCHIVE_TODO: TODO
+  :END:
